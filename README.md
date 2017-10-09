@@ -1,2 +1,2 @@
-# DingYJavaWeb
-基于Java Web技术的示例代码
+# Java技术
+Java程序设计、JSP开发技术、JavaBean与Servlet开发技术
