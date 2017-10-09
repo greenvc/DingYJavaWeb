@@ -77,24 +77,12 @@
                <td style="width:270px;">标题</td>
             </tr>
             <tr>
-                <td rowspan="6">Java基础语法</td>
-                <td rowspan="6">掌握JSP使用</td>
+                <td rowspan="1">Java基础语法</td>
+                <td rowspan="1">掌握JSP使用</td>
                 <td><a href="Basic/First.jsp">第一个JSP程序</a></td>
             </tr>
             <tr>
                 <td><a href="Basic/Grammar.jsp">JSP基础语法</a></td>
-            </tr>
-            <tr>
-                <td><a href="Basic/OutputArray.jsp">数组</a></td>
-            </tr>
-            <tr>
-                <td><a href="Basic/Date.jsp">获取日期(引用系统资源包)</a></td>
-            </tr>
-            <tr>
-                <td><a href="Basic/JspEvent.jsp">事件与JS的执行顺序</a></td>
-            </tr>
-            <tr>
-                <td><a href="Basic/GetData.jsp">获取数据</a></td>
             </tr>
         </table>
     </div>
