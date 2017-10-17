@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
+/*
+ * 使用异常
+ */
 public class UseException {
 
 	public static void main(String[] args) {
