@@ -19,9 +19,9 @@ public class Goods {
 	    }
 	    
 	    public Destination dest(String Location) {
-	    	System.out.print("隐藏你不想让别人知道的操作, 接收到参数:" + s);
+	    	System.out.print("隐藏你不想让别人知道的操作, 接收到参数:" + Location);
 	    	
-	        return new GDestination(s);
+	        return new GDestination(Location);
 	    }
 	    
 	    public Contents cont() {
