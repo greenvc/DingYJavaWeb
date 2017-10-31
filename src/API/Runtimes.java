@@ -9,9 +9,9 @@ public class Runtimes {
 		Runtime r = Runtime.getRuntime();
         long mem1,mem2;
         Integer someints[] = new Integer[1000];
-        System.out.println("Total memory is ：" + r.totalMemory());
+        System.out.println("JVM使用的总容量 ：" + r.totalMemory());
         mem1 = r.freeMemory();
-        System.out.println("Initial free is : " + mem1);
+        System.out.println("可用内存：" + mem1);
         r.gc();
         mem1 = r.freeMemory();
         System.out.println("Free memory after garbage collection : " + mem1);
