@@ -25,6 +25,14 @@ public class Runtimes {
         r.gc(); //request garbage collection
         mem2 = r.freeMemory();
         System.out.println("Free memory after collecting " + "discarded integers : " + mem2);
+        
+        //执行Notepad程序
+        Process p = null; 
+        try{ 
+                p = r.exec("notepad"); 
+        } catch (Exception e) { 
+                System.out.println("Error executing notepad."); 
+        } 
 	}
 
 }
