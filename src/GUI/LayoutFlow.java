@@ -2,9 +2,8 @@ package GUI;
 
 import java.awt.*;
 import javax.swing.*;
-import javax.swing.border.*;
 
-public class FlowLayoutExample {
+public class LayoutFlow {
 	public static void main(String []args){
 		JFrame f=new JFrame("流式布局");
 		JPanel p=new JPanel();
