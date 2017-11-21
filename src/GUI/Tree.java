@@ -5,11 +5,11 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.tree.*;
 
-public class JTreeDemo extends JFrame {
+public class Tree extends JFrame {
 	protected JTree m_tree;
 	protected JTextField m_display;
 
-	public JTreeDemo() {
+	public Tree() {
 		super("树JTree应用");
         // 创建5个树的用户对象引用 
         Object[] nodes = new Object[5]; 
@@ -122,7 +122,7 @@ public class JTreeDemo extends JFrame {
 	}
 	
 	public static void main(String argv[]) {
-		JTreeDemo frame = new JTreeDemo();
+		Tree frame = new Tree();
 
 		frame.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
