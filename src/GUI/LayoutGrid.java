@@ -3,10 +3,10 @@ package GUI;
 import javax.swing.*;
 import java.awt.*;
 
-public class GridLayoutExample extends JFrame{
+public class LayoutGrid extends JFrame{
 	private JButton[] btn = new JButton[9];
   
-    public GridLayoutExample(){	
+    public LayoutGrid(){	
     	init();
     	setBounds(200, 200, 300, 200);
     	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -33,6 +33,6 @@ public class GridLayoutExample extends JFrame{
     }
     
     public static void main(String args[]){	
-    	GridLayoutExample win = new GridLayoutExample ();
+    	LayoutGrid win = new LayoutGrid ();
   }
 }
