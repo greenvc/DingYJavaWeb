@@ -1,12 +1,11 @@
 package GUI;
 
-import java.awt.*;
 import javax.swing.*;
  
-public class NullLayoutDemo extends JFrame{
+public class LayoutNull extends JFrame{
 	JButton btn1,btn2;
 	 
-	NullLayoutDemo() {
+	LayoutNull() {
 		this.setTitle("自由布局");
 		this.setBounds(100,100,250,150);
 
@@ -28,6 +27,6 @@ public class NullLayoutDemo extends JFrame{
 	}
 
 	public static void main(String args[]){
-		new NullLayoutDemo();
+		new LayoutNull();
 	}
 }
