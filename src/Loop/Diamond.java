@@ -64,5 +64,24 @@ public class Diamond {// 下面是升序的代码
         float b = 11;// 根据行数，判断是否可以组成菱形。如果是基数行可以输入对应的菱形，如果是偶数行则输出"你输入的数据不能形成菱形结构";
         objDiamond.prit1(b);
         objDiamond.prit2(b);
+        
+        objDiamond.draw(9);
+    }
+    
+    /*
+     * 把需要打印的菱形放在一个正方形里面，控制台打印出一个h*h的区域，找出菱形边所在的函数，逢边上的点打印"*"，其他点打印" "
+     */
+    public void draw(int h ){
+        for(int i = 1 ;i <= h ;i++){         //逐行打印
+            for(int j = 1;j <= h;j++){       //每行打印个数与行数保持一致
+                //下面语句是菱形四条边的函数，在边上的坐标点，打印*，否则打印空格
+                if(j == (h + 3) / 2 - i || j == (h - 1) / 2 + i || j == i - (h - 1 ) / 2 || j == (3 * h + 1) / 2 - i){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }            
+            }    
+            System.out.println();        //第 i 行打印完换行
+        }
     }
 }
